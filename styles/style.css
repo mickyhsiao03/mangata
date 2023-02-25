@@ -1,12 +1,11 @@
 body{
-    background-color: #EDEFEE;
     font-family: 'Markazi Text', serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
     color: black;
-    background-color: lightgray;
+    background-color: #F5F5F5;
 
     grid-template-columns: 1fr 1fr 1fr;
     
@@ -32,7 +31,7 @@ header > img{
 
 nav{
     grid-area: nav;
-    background-color:  #262626;
+    background-color:  #0F1626;
     border-radius: 20px;
     height: 100%;
 }
@@ -51,7 +50,7 @@ nav li{
     height: auto;
 }
 nav li:hover, nav li a:hover{
-    background-color: #cccccc;
+    background-color: #AB987A;
     padding-left: 10px;
     padding-right: 10px;
     color:black;
@@ -75,7 +74,7 @@ nav li a{
     margin: 2%;
     margin-left: 0%;
     margin-right: 0%;
-    border: 5px solid black;
+    border: 5px solid #0F1626;
     border-radius: 20px;
     padding: 5%;
     background-image: url("../images/diamonds.png");
@@ -91,7 +90,7 @@ nav li a{
     grid-area: suba;
     display: flex;
     margin: auto;
-    color: #cccccc
+    color: black;
 }
 .subArticle article{
     padding: 2%;
@@ -99,10 +98,17 @@ nav li a{
     margin: 2%;
     width: 33vw;
     height: 30vh;
-    border: 5px solid black;
+    border: 5px solid #0F1626;
     border-radius: 20px;;
     overflow: hidden;
 }
+.subArticle p, .subArticle h2{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.75);
+
+}
+
 
 footer{
     margin-top: 5%;
@@ -136,5 +142,21 @@ h1{
 
 h2{
     font-size: 1.5rem;
-    color: white
+    color: black;
+    text-align: center;
+}
+
+.artbgi{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#collections{
+    background-image: url("../images/collections.png");
+}
+#appointment{
+    background-image: url("../images/appoint.jpeg");
+}
+#hours{
+    background-image: url("../images/hours.jpeg");
 }
